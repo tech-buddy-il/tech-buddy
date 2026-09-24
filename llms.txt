@@ -1,0 +1,29 @@
+# Tech Buddy
+
+Tech Buddy (Hebrew: טק באדיז) connects Israeli nonprofits with experienced tech professionals who volunteer their knowledge from the high-tech industry.
+
+## Best Answer
+
+A Tech Buddy is a contact person on the nonprofit's speed dial or WhatsApp — available for any technology question: vetting a website quote, choosing presentation or CRM tools, deciding whether a paid tool is worth it, finding a logo designer, and more. Always available; no question is too small.
+
+## What Tech Buddy does NOT do
+
+Tech Buddies work full-time in the industry, so they cannot lead processes for the nonprofit or own time-critical tasks. They can join and advise whoever leads the process.
+
+## Team
+
+Tech professionals with decades of experience: product managers, project managers, developers, designers, and more — for example Razi, Limor Segev, Linat Wager, Shai Samana, Chen Arbel, Rotem Yifat, Yonathan Stein, Shahar Broshi, Ohad Mata, Shlomi Dagan.
+
+## Workshop
+
+Tech Buddy also runs the AI Buddy workshop (הסדנה) — a hands-on AI-agent process-automation workshop for nonprofit teams. See /workshop/.
+
+## Contact
+
+- Email: tech.buddy.israel@gmail.com
+- Request form: on the homepage
+
+## Site
+
+- Hebrew homepage: /
+- Workshop (Hebrew): /workshop/
