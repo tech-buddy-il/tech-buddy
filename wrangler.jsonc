@@ -3,5 +3,7 @@
 {
   "name": "tech-buddy",
   "compatibility_date": "2026-10-01",
-  "assets": { "directory": "." }
+  "assets": { "directory": "." },
+  // Lets branch builds publish a preview link.
+  "previews": {}
 }
