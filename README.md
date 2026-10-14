@@ -39,9 +39,9 @@ All forms submit to the Mojo forms API (`api.usemojo.ai`), same pattern as code-
 |------|--------------|--------|
 | Main request form (homepage `#cta`) | `6aa92a48e6a9d3020ff8e2d2` (v1) | ✅ wired |
 | Workshop form (`/workshop/`) | `6a68ea2d872e217f8d98f5d8` (v3) | ✅ wired |
-| «צור קשר» popup (homepage) | `TODO-POPUP-FORM-ID` | ⏳ waiting for a Mojo form |
+| «צור קשר» popup (homepage) | `6aa92a48e6a9d3020ff8e2d2` (v1, same as main form) | ✅ wired |
 
-Project ID for all: `694318737276d03eef9a0505`. To wire the popup, create the Mojo form and replace `TODO-POPUP-FORM-ID` in `index.html`. Answer keys sent: `name`, `work_email`, `phone`, `org_name`, `org_website`, `org_revenue`, `org_employees`, `why` (main form) and `name`, `phone`, `org_name`, `work_email`, `org_sector`, `org_sector_other`, `needed_role`, `needed_role_other`, `technologies` (comma-separated), `notes` (popup).
+Project ID for all: `694318737276d03eef9a0505`. The popup asks the same questions as the main form and submits to the same Mojo form. Answer keys sent: `name`, `work_email`, `phone`, `org_name`, `org_website`, `org_revenue`, `org_employees`, `why`.
 
 ## Team images
 
@@ -49,7 +49,6 @@ Project ID for all: `694318737276d03eef9a0505`. To wire the popup, create the Mo
 
 ## Still to wire
 
-- Mojo form ID for the «צור קשר» popup (see above)
 - Real team images (generated from originals + prompt)
 - Final Tech Buddy logo / OG image (text-based SVG placeholders for now)
 - LinkedIn + Facebook page URLs in the footer (currently `#`)

@@ -1360,89 +1360,59 @@
     <button class="b-dialog__close" type="button" onclick="document.getElementById('contact-popup').close()" aria-label="סגירה">×</button>
   </div>
   <form id="popup-form" onsubmit="handleFormSubmit(event)"
-    data-mojo-form-id="TODO-POPUP-FORM-ID"
+    data-mojo-form-id="6aa92a48e6a9d3020ff8e2d2"
     data-mojo-project-id="694318737276d03eef9a0505"
     data-mojo-version="1"
     data-err-required="נא למלא את שדות החובה המסומנים."
     data-err-email-invalid="נא להזין אימייל תקין."
     data-sending="שולח…">
     <p class="b-cta-form__sub">ספרו לנו קצת על העמותה ועל הצורך — ונחזור אליכם.</p>
-    <div class="field">
-      <label for="p-name">שם מלא *</label>
-      <input class="input" id="p-name" name="name" required>
-    </div>
-    <div class="field">
-      <label for="p-phone">טלפון *</label>
-      <input class="input" id="p-phone" name="phone" type="tel" required>
-    </div>
-    <div class="field">
-      <label for="p-org">עמותה *</label>
-      <input class="input" id="p-org" name="org_name" required>
-    </div>
-    <div class="field">
-      <label for="p-email">אימייל *</label>
-      <input class="input" id="p-email" name="work_email" type="email" required>
-    </div>
-    <div class="field">
-      <label for="p-sector">תחום העמותה *</label>
-      <select class="input" id="p-sector" name="org_sector" required>
-        <option value="" selected>בחרו מהרשימה</option>
-        <option>איכות סביבה</option>
-        <option>בריאות</option>
-        <option>דת ורוח</option>
-        <option>חינוך ערכי</option>
-        <option>חינוך ומדע</option>
-        <option>סביבה</option>
-        <option>רווחה</option>
-        <option>שינוי חברתי</option>
-        <option>אחר</option>
-      </select>
-    </div>
-    <div class="field">
-      <label for="p-sector-other">אם ״אחר״ — מה תחום העמותה?</label>
-      <input class="input" id="p-sector-other" name="org_sector_other">
-    </div>
-    <div class="field">
-      <label for="p-role">איזה טכנולוג.ית אתם מחפשים?</label>
-      <select class="input" id="p-role" name="needed_role">
-        <option value="" selected>בחרו מהרשימה</option>
-        <option>מנהל פרויקטים</option>
-        <option>מפתח או ארכיטקט תוכנה</option>
-        <option>בונה אפליקציות</option>
-        <option>מנהל שיווק / מדיה חברתית וכדומה</option>
-        <option>אנאליסט נתונים (ניתוח דאטה, ויזואליזציות וכדומה)</option>
-        <option>מדען נתונים (Data Scientist)</option>
-        <option>מנהל מערכות מידע</option>
-        <option>מומחה אוטומציות</option>
-        <option>מומחה ענן</option>
-        <option>בודק תוכנה</option>
-        <option>אחר</option>
-      </select>
-    </div>
-    <div class="field">
-      <label for="p-role-other">מה הטכנולוג.ית שלא מצאתם ברשימה?</label>
-      <input class="input" id="p-role-other" name="needed_role_other">
-    </div>
-    <div class="field">
-      <label>באילו טכנולוגיות אתם משתמשים?</label>
-      <div class="check-pills">
-        <label><input type="checkbox" name="technologies" value="Excel">Excel</label>
-        <label><input type="checkbox" name="technologies" value="CRM">CRM</label>
-        <label><input type="checkbox" name="technologies" value="Payment Processors">סליקה ותשלומים</label>
-        <label><input type="checkbox" name="technologies" value="CMS">CMS</label>
-        <label><input type="checkbox" name="technologies" value="Data Tools">כלי דאטה</label>
-        <label><input type="checkbox" name="technologies" value="Website Builders">בוני אתרים</label>
-        <label><input type="checkbox" name="technologies" value="Marketing Technologies">כלי שיווק</label>
-        <label><input type="checkbox" name="technologies" value="Finance Tools">כלי פיננסים</label>
-        <label><input type="checkbox" name="technologies" value="Mobile Apps">אפליקציות מובייל</label>
+      <div class="field">
+        <label for="p-name">השם המלא שלך *</label>
+        <input class="input" id="p-name" name="name" placeholder="למשל: לימור ס." required>
       </div>
-    </div>
-    <div class="field">
-      <label for="p-notes">הערות נוספות</label>
-      <textarea class="input" id="p-notes" name="notes" rows="3"></textarea>
-    </div>
+      <div class="field">
+        <label for="p-email">אימייל *</label>
+        <input class="input" id="p-email" name="work_email" type="email" placeholder="you@org.org.il" required>
+      </div>
+      <div class="field">
+        <label for="p-phone">טלפון</label>
+        <input class="input" id="p-phone" name="phone" type="tel" placeholder="050-0000000">
+      </div>
+      <div class="field">
+        <label for="p-org">שם העמותה *</label>
+        <input class="input" id="p-org" name="org_name" placeholder="שם הארגון" required>
+      </div>
+      <div class="field">
+        <label for="p-site">אתר העמותה</label>
+        <input class="input" id="p-site" name="org_website" type="url" placeholder="https://" dir="ltr" style="text-align:left">
+      </div>
+      <div class="field">
+        <label for="p-revenue">מחזור העמותה בשקלים</label>
+        <select class="input" id="p-revenue" name="org_revenue">
+          <option value="" selected>בחרו מהרשימה</option>
+          <option>עד מיליון שקל</option>
+          <option>2–10 מיליון</option>
+          <option>10–50 מיליון</option>
+          <option>מעל 50 מיליון</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="p-employees">כמות העובדים בעמותה</label>
+        <select class="input" id="p-employees" name="org_employees">
+          <option value="" selected>בחרו מהרשימה</option>
+          <option>עד 20 אנשים</option>
+          <option>בין 20–100 אנשים</option>
+          <option>בין 100–500 אנשים</option>
+          <option>מעל 500 אנשים</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="p-why">למה את.ה מעוניינים ב-Tech Buddy? אנא ציינו שלושה אתגרים שהתמודדתם איתם בשנה האחרונה</label>
+        <textarea class="input" id="p-why" name="why" rows="4"></textarea>
+      </div>
     <button class="btn btn--lg" type="submit" style="margin-top:4px">שליחה &larr;</button>
-    <div class="b-cta-form__note">לאור פניות רבות וצוות מוגבל, מתנצלים מראש אם ייקח זמן עד לקבלת תשובה.</div>
+    <div class="b-cta-form__note">לאור פניות רבות וצוות מוגבל, מתנצלים מראש אם ייקח זמן עד לקבלת תשובה. אם יש נושא קריטי מבחינתכם — ציינו זאת בשאלה האחרונה.</div>
     <div class="b-cta-form__error" role="alert"></div>
     <div class="b-cta-form__success" aria-live="polite">
       תודה רבה! קיבלנו את הפרטים. נחזור אליכם בהקדם ✓
