@@ -1,0 +1,9 @@
+// Cloudflare Workers config: serves this folder as a static site.
+// Files listed in .assetsignore are not published.
+{
+  "name": "tech-buddy",
+  "compatibility_date": "2026-10-01",
+  "assets": { "directory": "." },
+  // Lets branch builds publish a preview link.
+  "previews": {}
+}
