@@ -829,10 +829,9 @@
 
     /* ─── Team polaroid grid ─── */
     .b-team__grid {
-      margin-top: 72px;
-      display: grid; grid-template-columns: repeat(6, 1fr);
-      gap: 40px 28px; max-width: 1180px;
-      justify-items: center;
+      margin-top: 72px; margin-inline: auto;
+      display: flex; flex-wrap: wrap; justify-content: center;
+      gap: 40px 28px; max-width: 920px; /* 4 cards per row; a short last row stays centered */
     }
     .b-team-card {
       position: relative; display: block;
@@ -955,11 +954,11 @@
     [dir="rtl"] select.input { background-position: left 12px center; }
     [dir="rtl"] .b-workshop__ctas { justify-content: flex-start; }
     @media (max-width: 1100px) {
-      .b-team__grid { grid-template-columns: repeat(3, 1fr); }
     }
     @media (max-width: 900px) {
       .b-help__cards { grid-template-columns: 1fr; margin-top: 40px; }
-      .b-team__grid { grid-template-columns: repeat(2, 1fr); gap: 32px 20px; margin-top: 48px; }
+      .b-team__grid { gap: 32px 20px; margin-top: 48px; }
+      .b-team-card { max-width: calc(50% - 10px); }
       .b-workshop { padding: 72px 24px; }
       .b-workshop__inner { grid-template-columns: 1fr; gap: 40px; }
       .b-workshop__h2 { font-size: 40px; }
@@ -1034,7 +1033,7 @@
         <a class="b-polaroid b-polaroid--b" href="#team" aria-label="אל צוות Tech Buddy">
           <span class="b-polaroid__tape" aria-hidden="true"></span>
           <img src="assets/team/rotem.jpg" alt="רותם יפעת">
-          <div class="b-polaroid__caption">רותם · מוצר</div>
+          <div class="b-polaroid__caption">רותם · מרקטינג</div>
         </a>
         <a class="b-polaroid b-polaroid--c" href="#team" aria-label="אל צוות Tech Buddy">
           <span class="b-polaroid__tape" aria-hidden="true"></span>
@@ -1155,47 +1154,23 @@
         <div class="b-team-card__name">לינת וגר</div>
         <div class="b-team-card__role">מנהלת מוצר</div>
       </a>
-      <a class="b-team-card" href="https://www.linkedin.com/in/shai-samana/" target="_blank" rel="noopener" aria-label="שי סמנה בלינקדאין">
-        <span class="b-team-card__tape" aria-hidden="true"></span>
-        <img src="assets/team/shai.svg" alt="שי סמנה">
-        <div class="b-team-card__name">שי סמנה</div>
-        <div class="b-team-card__role">מעצב גרפי</div>
-      </a>
-      <a class="b-team-card" href="https://www.linkedin.com/in/chen-arbel-1642b79b" target="_blank" rel="noopener" aria-label="חן ארבל בלינקדאין">
-        <span class="b-team-card__tape" aria-hidden="true"></span>
-        <img src="assets/team/chen.svg" alt="חן ארבל">
-        <div class="b-team-card__name">חן ארבל</div>
-        <div class="b-team-card__role">מנהלת מוצר</div>
-      </a>
       <a class="b-team-card" href="https://www.linkedin.com/in/rotem-yifat-41318642/" target="_blank" rel="noopener" aria-label="רותם יפעת בלינקדאין">
         <span class="b-team-card__tape" aria-hidden="true"></span>
         <img src="assets/team/rotem.jpg" alt="רותם יפעת">
         <div class="b-team-card__name">רותם יפעת</div>
-        <div class="b-team-card__role">מנהלת מוצר</div>
+        <div class="b-team-card__role">מרקטינג</div>
       </a>
       <a class="b-team-card" href="https://www.linkedin.com/in/yonathan-s-32950876/" target="_blank" rel="noopener" aria-label="יונתן שטיין בלינקדאין">
         <span class="b-team-card__tape" aria-hidden="true"></span>
         <img src="assets/team/yonathan.jpg" alt="יונתן שטיין">
         <div class="b-team-card__name">יונתן שטיין</div>
-        <div class="b-team-card__role">מעצב מוצר</div>
+        <div class="b-team-card__role">עיצוב וחווית משתמש</div>
       </a>
       <a class="b-team-card" href="https://www.linkedin.com/in/shahar-broshi/" target="_blank" rel="noopener" aria-label="שחר ברושי בלינקדאין">
         <span class="b-team-card__tape" aria-hidden="true"></span>
-        <img src="assets/team/shahar.svg" alt="שחר ברושי">
+        <img src="assets/team/shahar.jpg" alt="שחר ברושי">
         <div class="b-team-card__name">שחר ברושי</div>
         <div class="b-team-card__role">מפתח Web</div>
-      </a>
-      <a class="b-team-card" href="https://www.linkedin.com/in/ohad-mata-471b9482/" target="_blank" rel="noopener" aria-label="אוהד מטע בלינקדאין">
-        <span class="b-team-card__tape" aria-hidden="true"></span>
-        <img src="assets/team/ohad.svg" alt="אוהד מטע">
-        <div class="b-team-card__name">אוהד מטע</div>
-        <div class="b-team-card__role">מפתח</div>
-      </a>
-      <a class="b-team-card" href="https://www.linkedin.com/in/shlomi-dagan-product-ops/" target="_blank" rel="noopener" aria-label="שלומי דגן בלינקדאין">
-        <span class="b-team-card__tape" aria-hidden="true"></span>
-        <img src="assets/team/shlomi.svg" alt="שלומי דגן">
-        <div class="b-team-card__name">שלומי דגן</div>
-        <div class="b-team-card__role">מנהל פרויקטים</div>
       </a>
       <a class="b-team-card" href="https://www.linkedin.com/in/hsagges/" target="_blank" rel="noopener" aria-label="הילה סגס בלינקדאין">
         <span class="b-team-card__tape" aria-hidden="true"></span>
