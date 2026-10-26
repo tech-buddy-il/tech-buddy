@@ -45,7 +45,7 @@ Project ID for all: `694318737276d03eef9a0505`. The popup asks the same question
 
 ## Team images
 
-`assets/team/*.svg` are placeholders. Final images are generated portraits following the AI Buddy visual style (originals + generation prompt provided separately). See [assets/team/README.md](assets/team/README.md) for the swap instructions.
+Team portraits are drawn in the AI Buddy visual style and live in `assets/team/` as 640px-wide JPEGs. See [assets/team/README.md](assets/team/README.md) for adding a new person.
 
 ## Still to wire
 

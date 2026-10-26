@@ -1,15 +1,14 @@
 # Team images
 
-Real portraits (`.jpg`): hila, limor, linat, razi, rotem, yonathan.
-The remaining SVGs are **placeholders**. The final images are generated portraits that follow
-the AI Buddy / code-left visual style (same treatment as `workshop/assets/limor.png`).
+Portraits for the homepage team section (`#team` in `index.html`): hila, limor, linat,
+razi, rotem, shahar, yonathan.
 
-When the generated images are ready:
+They are drawn in the AI Buddy / code-left visual style (same treatment as
+`workshop/assets/limor.png`).
 
-1. Drop them here as `<name>.jpg`, resized to 640px wide (portrait orientation; they are
-   displayed with `object-fit: cover`, so faces should sit in the upper third).
-2. In `index.html`, change the matching `<img src="assets/team/<name>.svg">` to `.jpg` and delete the SVG
-   and, if needed, fine-tune `object-position` per person (see `--limor` / `--hila`
-   modifiers in `workshop/index.html` for the pattern).
+To add a person:
 
-Expected files: razi, limor, linat, shai, chen, rotem, yonathan, shahar, ohad, shlomi, hila.
+1. Save the portrait here as `<name>.jpg`, resized to 640px wide. Cards crop with
+   `object-fit: cover` at `center 22%`, so keep the face in the upper part of the image.
+2. In `index.html`, copy an existing `.b-team-card` block inside `.b-team__grid` and change
+   the LinkedIn link, `aria-label`, image `src`/`alt`, name and role.
