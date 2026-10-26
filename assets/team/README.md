@@ -1,6 +1,6 @@
 # Team images
 
-Real portraits (`.jpg`): limor, linat, razi, rotem, yonathan.
+Real portraits (`.jpg`): hila, limor, linat, razi, rotem, yonathan.
 The remaining SVGs are **placeholders**. The final images are generated portraits that follow
 the AI Buddy / code-left visual style (same treatment as `workshop/assets/limor.png`).
 
@@ -12,4 +12,4 @@ When the generated images are ready:
    and, if needed, fine-tune `object-position` per person (see `--limor` / `--hila`
    modifiers in `workshop/index.html` for the pattern).
 
-Expected files: razi, limor, linat, shai, chen, rotem, yonathan, shahar, ohad, shlomi.
+Expected files: razi, limor, linat, shai, chen, rotem, yonathan, shahar, ohad, shlomi, hila.
